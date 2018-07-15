@@ -17,7 +17,7 @@
   <script src="./js/map.tip.js"></script>
   <script src="./js/map.legend.js"></script>
   <script src="./js/c3.min.js"></script>
-  <style type="text/css">
+  <style type="./text/css">
       body {
           font-family: sans-serif;
           -webkit-text-size-adjust: 100%;
@@ -110,17 +110,17 @@
 
     //Download
     queue(2)
-      .defer(d3.json, "./json/gadm36IND0.json")
-      .defer(d3.json, "./json/gadm36IND1gujarat.json")
-      .defer(d3.json, "./json/gadm36IND3gujarat.json")
-      .defer(d3.json, "./json/gujaratadministrative.json")
-      .defer(d3.json, "./json/gujaratcoastline.json")
-      .defer(d3.json, "./json/gujarathighway.json")
-      .defer(d3.json, "./json/gujaratnatural.json")
-      .defer(d3.json, "./json/gujaratwater.json")
-      .defer(d3.json, "./json/gujaratvillages.json")
-      .defer(d3.json, "./json/neighboringvillages.json")
-      .defer(d3.csv, "./data/info.csv")
+      .defer(d3.json, "json/gadm36IND0.json")
+      .defer(d3.json, "json/gadm36IND1gujarat.json")
+      .defer(d3.json, "json/gadm36IND3gujarat.json")
+      .defer(d3.json, "json/gujaratadministrative.json")
+      .defer(d3.json, "json/gujaratcoastline.json")
+      .defer(d3.json, "json/gujarathighway.json")
+      .defer(d3.json, "json/gujaratnatural.json")
+      .defer(d3.json, "json/gujaratwater.json")
+      .defer(d3.json, "json/gujaratvillages.json")
+      .defer(d3.json, "json/neighboringvillages.json")
+      .defer(d3.csv, "data/info.csv")
       .await(ready);
 
     //Load map when downloaded
