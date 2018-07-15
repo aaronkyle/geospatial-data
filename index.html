@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <title>map_gujarat</title>
-  <link rel="stylesheet" type="text/css" href="css/map.css" />
-  <link rel="stylesheet" type="text/css" href="css/color.css" />
-  <link rel="stylesheet" type="text/css" href="css/tip.css" />
-  <link rel="stylesheet" type="text/css" href="css/legend.css" />
-  <link rel="stylesheet" type="text/css" href="css/c3.min.css" />
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="http://d3js.org/topojson.v1.min.js"></script>
-  <script src="http://d3js.org/queue.v1.min.js"></script>
-  <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-  <script src="http://underscorejs.org/underscore-min.js"></script>
-  <script src="js/d3.geo.zoom.js"></script>
-  <script src="js/map.tip.js"></script>
-  <script src="js/map.legend.js"></script>
-  <script src="js/c3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/map.css" />
+  <link rel="stylesheet" type="text/css" href="./css/color.css" />
+  <link rel="stylesheet" type="text/css" href="./css/tip.css" />
+  <link rel="stylesheet" type="text/css" href="./css/legend.css" />
+  <link rel="stylesheet" type="text/css" href="./css/c3.min.css" />
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="https://d3js.org/queue.v1.min.js"></script>
+  <script src="https://d3js.org/d3.geo.projection.v0.min.js"></script>
+  <script src="https://underscorejs.org/underscore-min.js"></script>
+  <script src="./js/d3.geo.zoom.js"></script>
+  <script src="./js/map.tip.js"></script>
+  <script src="./js/map.legend.js"></script>
+  <script src="./js/c3.min.js"></script>
   <style type="text/css">
       body {
           font-family: sans-serif;
@@ -32,7 +32,14 @@
   <div id="map"></div>
   <div id="template" style="display: none">
     <!--Tooltip template-->
-<table><tr><td>DISTRICT</td><td>{DISTRICT}</td></tr><tr><td>NAME</td><td>{NAME}</td></tr><tr><td>CENSUS_COD</td><td>{CENSUS_COD}</td></tr><tr><td>STATE</td><td>{STATE}</td></tr><tr><td>TYPE</td><td>{TYPE}</td></tr><tr><td>SUB_DISTRI</td><td>{SUB_DISTRI}</td></tr></table>
+<table>
+<tr><td>DISTRICT</td><td>{DISTRICT}</td></tr>
+<tr><td>NAME</td><td>{NAME}</td></tr>
+<tr><td>CENSUS_COD</td><td>{CENSUS_COD}</td></tr>
+<tr><td>STATE</td><td>{STATE}</td></tr>
+<tr><td>TYPE</td><td>{TYPE}</td></tr>
+<tr><td>SUB_DISTRI</td><td>{SUB_DISTRI}</td></tr>
+</table>
   </div>
 
 
